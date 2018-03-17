@@ -1,0 +1,21 @@
+dir(__builtins__)
+isinstance(20,int)
+type('hello world')
+import random
+random.randint(1,10)
+small = x if x < y else y
+number.append('helloworld')
+member.extend(['hello','world'])
+member.insert(0,'helloworld')
+member.remove('helloworld')
+del member[1]
+del member
+member.pop()
+member[1:3]
+member.count('helloworld')
+member.index('helloworld',3,7)
+member.reverse()
+member.sort(reverse=True)
+member = number
+member = number[:]
+
