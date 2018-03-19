@@ -57,3 +57,19 @@ title()		//返回标题化（所有的单词都是以大写开始，其余字母
 translate(table)		//根据table的规则（可以由str.maketrans('a','b')定制）转换字符串中的字符。
 upper()		//转换字符串中的所有小写字符为大写。
 zfill(width)		//返回长度为width的字符串，原字符串右对齐，前边用0填充。
+"{0} {1}".format("hello", "world")
+"{a} {b}".format(a="hello", b="world")
+"{{0}}"
+"%c %c" % (65,66)
+list()
+tuple()
+str()
+max()	//参数数据类型应一致
+min()	//参数数据类型应一致
+sum(iterable[,start=0])		//返回序列iterable和可选参数start的总和
+sorted()		//从小到大排列
+reversed()
+enumerate()		//枚举
+zip()
+print.__doc__
+def MyFirstFunction(*temp):
