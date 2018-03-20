@@ -73,3 +73,8 @@ enumerate()		//枚举
 zip()
 print.__doc__
 def MyFirstFunction(*temp):
+global
+nonlocal
+g = lambda x,y:x+y
+filter(lambda x: x % 2, range(10))
+map(lambda x : x*2, range(10))
