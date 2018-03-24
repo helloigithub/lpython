@@ -1,0 +1,106 @@
+			ISO C关键字
+
+auto		extern		short		while
+break		float		signed		_Alignas
+case		for			sizeof		_Alignof
+char		goto		static		_Atomic
+const		if			struct		_Bool
+continue	inline		switch		_Complex
+default		int			typedef		_Generic
+do 			long		union		_Imaginary
+double 		register	unsigned	_Noreturn
+else		restrict	void		_Static_assert
+enum		return		volatile	_Thread_local
+
+			C语言的数据类型关键字
+int			signed		_Bool
+long		void		_Complex
+short					_Imaginary
+unsigned
+char
+float
+double
+
+#include <stdint.h>		#include <inttypes.h>
+int32_t		int_least8_t	int_fast8_t		intmax_t	unitmax_t
+PRId32
+
+#include <complex.h>
+float_Complex	double_Complex	long double_Complex
+float_Imaginary	double_Imaginary	long double_Imaginary
+
+			运算符优先级
+()								从左往右
+- + ++ -- sizeof				从右往左
+* / %							从左往右
++ -								从左往右
+> < >= <=						从左往右
+== !=							从左往右
+=								从右往左
+
+#include <ctype.h>
+isalnum()
+isalpha()
+isblank()
+iscntrl()
+isdigit()
+isgraph()
+islower()
+isprint()
+ispunct()
+isspace()
+isupper()
+isxdigit()
+tolower()
+toupper()
+
+#include <iso646.h>
+and or not
+
+#include <conio.h>
+getche()
+getch()
+
+(int [2]){10, 20}
+
+#include <stdio.h>
+printf()
+scanf()
+getchar()
+putchar()
+gets(ar)
+puts(ar)
+get_s(ar,n)
+fgets(ar,n,stdin)
+fputs(ar,stdout)
+sprintf(ar,"hello world")
+
+#include <string.h>
+strlen()
+strcat(ar,br)
+strncat(ar,br,n)
+strcmp(ar,br)
+strncmp(ar,br,n)
+strcpy(ar,br)
+strncpy(ar,br,n)
+strchr(ar,'\n')
+strrchr(ar,'\n')
+strstr(ar,br)
+strpbrk(ar,br)
+
+#include <stdlib.h>
+atoi()
+atof()
+atol()
+strtol(ar,&br,n)
+strtoul()
+strtod()
+srand((unsingned int)time(0))
+rand()
+malloc()
+calloc()
+free()
+exit(EXIT_FAILURE)
+exit(EXIT_SUCCESS)
+
+auto register static extern Thread_local typedef
